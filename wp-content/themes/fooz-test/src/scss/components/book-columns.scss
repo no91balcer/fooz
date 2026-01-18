@@ -1,0 +1,11 @@
+@use "../settings" as s;
+
+@media (min-width: s.$breakpoint-md) {
+  .c-book-columns .c-book-columns__column:nth-child(odd) {
+    flex-basis: 30%;
+  }
+
+  .c-book-columns .c-book-columns__column:nth-child(even) {
+    flex-basis: 70%;
+  }
+}

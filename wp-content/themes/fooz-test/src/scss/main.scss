@@ -1,3 +1,6 @@
+@use "./settings";
+@use "./components";
+
 .wp-block-site-title{
   text-transform: uppercase;
 }

@@ -1,0 +1,41 @@
+<!-- wp:template-part {"slug":"header"} /-->
+
+<!-- wp:group {"align":"full","layout":{"type":"default"}} -->
+<div class="wp-block-group alignfull">
+    <!-- wp:group {"layout":{"type":"constrained"}} -->
+    <div class="wp-block-group">
+        <!-- wp:group {"align":"wide","style":{"spacing":{"padding":{"top":"var:preset|spacing|60","bottom":"var:preset|spacing|60"}}}} -->
+        <div class="wp-block-group alignwide" style="padding-top:var(--wp--preset--spacing--60);padding-bottom:var(--wp--preset--spacing--60)">
+            <!-- wp:columns {"verticalAlignment":"top"} -->
+            <div class="wp-block-columns are-vertically-aligned-top book-columns c-book-columns">
+                <!-- wp:column {"width":"30%"} -->
+                <div class="wp-block-column c-book-columns__column">
+                    <!-- wp:post-featured-image {"aspectRatio":"90/125"} /-->
+                </div>
+                <!-- /wp:column -->
+                <!-- wp:column {"width":"70%"} -->
+                <div class="wp-block-column c-book-columns__column">
+                    <!-- wp:post-title {"level":1,"style":{"spacing":{"margin":{"top":"var:preset|spacing|0"}}}} /-->
+                    <!-- wp:post-date {"className":"c-book-meta__date"} /-->
+                    <!-- wp:group {"style":{"spacing":{"padding":{"top":"var:preset|spacing|0","bottom":"var:preset|spacing|20"}}}} -->
+                    <div class="wp-block-group" style="padding-top:var(--wp--preset--spacing--0);padding-bottom:var(--wp--preset--spacing--20)">
+                        <!-- wp:post-terms {"term":"genre","separator":"  ","className":"is-style-post-terms-1"} /-->
+                    </div>
+                    <!-- /wp:group -->
+                    <!-- wp:post-content /-->
+                </div>
+                <!-- /wp:column -->
+            </div>
+            <!-- /wp:columns -->
+        </div>
+        <!-- /wp:group -->
+        <!-- wp:group {"align":"wide","style":{"spacing":{"padding":{"top":"var:preset|spacing|60","bottom":"var:preset|spacing|60"}}}} -->
+        <div class="wp-block-group alignwide">
+        <!-- wp:fooz-test/book-related /-->
+        </div>
+    </div>
+    <!-- /wp:group -->
+</div>
+<!-- /wp:group -->
+
+<!-- wp:template-part {"slug":"footer"} /-->
