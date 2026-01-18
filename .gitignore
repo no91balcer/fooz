@@ -10,3 +10,4 @@
 .DS_Store
 /wp-content/themes/fooz-test/node_modules/
 !/README.md
+/wp-content/themes/fooz-test/languages/
