@@ -1,0 +1,112 @@
+.c-faq-item {
+  border-bottom: 1px solid var(--wp--preset--color--accent-4);
+  overflow: hidden;
+  counter-increment: faq-counter;
+
+  &:first-child {
+    border-top: 1px solid var(--wp--preset--color--accent-4);
+  }
+}
+
+.c-faq-item__question {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: relative;
+  cursor: pointer;
+  text-align: left;
+  background: transparent;
+  border: none;
+  padding: 1rem 0;
+  font-size: 1.25rem;
+  font-weight: 500;
+  gap: 0.5rem;
+  width: 100%;
+  font-family: inherit;
+
+  &:focus {
+    outline: none;
+  }
+
+  &::before {
+    content: counter(faq-counter, decimal) ".";
+    font-weight: bold;
+    color: var(--wp--preset--color--primary);
+    align-self: flex-start;
+    font-size: 1em;
+    flex-basis: 2rem;
+  }
+}
+
+.c-faq-item__question-inner {
+  flex-basis: calc(100% - 4.5rem);
+  margin: 0;
+  font-size: 1.25rem;
+}
+
+.c-faq-item-icons {
+  height: 1.5rem;
+  width: 1.5rem;
+  max-width: 1.5rem;
+  align-self: flex-start;
+  position: relative;
+  font-size: unset;
+}
+
+.c-faq-item__icon {
+  display: block;
+  width: 100%;
+  height: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  transition: opacity .2s ease;
+}
+
+.c-faq-item__icon--plus {
+  background-image: url('../images/plus.svg');
+  opacity: 1;
+  transform: rotate(0deg);
+  transition: transform .2s ease;
+}
+
+.c-faq-item__icon--minus {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-image: url('../images/minus.svg');
+  opacity: 0;
+  transform: rotate(-90deg);
+  transition: transform .2s ease, opacity .2s ease;
+}
+
+.c-faq-item__answer {
+  font-size: var(--wp--preset--font-size--normal);
+  display: grid;
+  grid-template-rows: 0fr;
+  transition: grid-template-rows .3s ease-out, padding-bottom .3s ease-out;
+  overflow: hidden;
+  padding-bottom: 0;
+  padding-left: 2.5rem;
+}
+
+.c-faq-item__answer-inner {
+  min-height: 0;
+}
+
+.c-faq-item.is-open {
+  .c-faq-item__answer {
+    grid-template-rows: 1fr;
+    padding-bottom: 1.5rem;
+  }
+
+  .c-faq-item__icon--plus {
+    opacity: 0;
+    transform: rotate(90deg);
+  }
+
+  .c-faq-item__icon--minus {
+    opacity: 1;
+    transform: rotate(0deg);
+  }
+}

@@ -41,13 +41,16 @@
   aspect-ratio: 90 / 125;
   background: var(--wp--preset--color--base-2);
   overflow: hidden;
+  display: block;
+  position: relative;
 }
 
 .c-book__thumb {
-  width: 100%;
-  height: 100%;
+  width: 101%;
+  height: 101%;
   object-fit: cover;
   transition: transform 200ms ease;
+  will-change: transform;
 }
 
 .c-book__link:hover,

@@ -1,0 +1,278 @@
+# Copyright (C) 2026 Piotr Balcerak
+# This file is distributed under the GNU General Public License v2 or later.
+msgid ""
+msgstr ""
+"Project-Id-Version: Fooz test 1.0.0\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/theme/fooz-test\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2026-01-18T16:33:25+00:00\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"X-Generator: WP-CLI 2.12.0\n"
+"X-Domain: fooz-test\n"
+
+#. Theme Name of the theme
+#: style.css
+msgid "Fooz test"
+msgstr ""
+
+#. Description of the theme
+#: style.css
+msgid "Theme for Fooz test"
+msgstr ""
+
+#. Author of the theme
+#: style.css
+msgid "Piotr Balcerak"
+msgstr ""
+
+#: build/blocks/book-related/render.php:11
+#: src/blocks/book-related/render.php:11
+msgid "Other books"
+msgstr ""
+
+#: inc/post-types.php:11
+msgctxt "General Name"
+msgid "Books"
+msgstr ""
+
+#: inc/post-types.php:12
+msgctxt "Singular Name"
+msgid "Book"
+msgstr ""
+
+#: inc/post-types.php:13
+#: inc/post-types.php:14
+msgid "Add a book"
+msgstr ""
+
+#: inc/post-types.php:15
+msgid "Edit book"
+msgstr ""
+
+#: inc/post-types.php:16
+msgid "New book"
+msgstr ""
+
+#: inc/post-types.php:17
+msgid "View a book"
+msgstr ""
+
+#: inc/post-types.php:18
+msgid "View books"
+msgstr ""
+
+#: inc/post-types.php:19
+msgid "Search books"
+msgstr ""
+
+#: inc/post-types.php:20
+msgid "No books found"
+msgstr ""
+
+#: inc/post-types.php:21
+msgid "No books found in Trash"
+msgstr ""
+
+#: inc/post-types.php:22
+msgid "All books"
+msgstr ""
+
+#: inc/post-types.php:23
+msgid "Book archives"
+msgstr ""
+
+#: inc/post-types.php:24
+msgid "Book attributes"
+msgstr ""
+
+#: inc/post-types.php:25
+msgid "Put in the book"
+msgstr ""
+
+#: inc/post-types.php:26
+msgid "Uploaded to this book"
+msgstr ""
+
+#: inc/post-types.php:27
+msgid "Filter books list"
+msgstr ""
+
+#: inc/post-types.php:28
+msgid "Books list navigation"
+msgstr ""
+
+#: inc/post-types.php:29
+msgid "Books list"
+msgstr ""
+
+#: inc/post-types.php:30
+msgid "Book published"
+msgstr ""
+
+#: inc/post-types.php:31
+msgid "Book published privately"
+msgstr ""
+
+#: inc/post-types.php:32
+msgid "Book reverted to draft."
+msgstr ""
+
+#: inc/post-types.php:33
+msgid "Book trashed."
+msgstr ""
+
+#: inc/post-types.php:34
+msgid "Book scheduled."
+msgstr ""
+
+#: inc/post-types.php:35
+msgid "Book updated."
+msgstr ""
+
+#: inc/post-types.php:36
+msgid "Book Link"
+msgstr ""
+
+#: inc/post-types.php:37
+msgid "A link to the post."
+msgstr ""
+
+#: inc/post-types.php:49
+msgctxt "General Name"
+msgid "Genres"
+msgstr ""
+
+#: inc/post-types.php:50
+msgctxt "Singular Name"
+msgid "Genre"
+msgstr ""
+
+#: inc/post-types.php:51
+msgid "Search genres"
+msgstr ""
+
+#: inc/post-types.php:52
+msgid "All genres"
+msgstr ""
+
+#: inc/post-types.php:53
+msgid "Parent genre"
+msgstr ""
+
+#: inc/post-types.php:54
+msgid "Assign a parent genre to create a hierarchy"
+msgstr ""
+
+#: inc/post-types.php:55
+msgid "Edit genre"
+msgstr ""
+
+#: inc/post-types.php:56
+msgid "View genre"
+msgstr ""
+
+#: inc/post-types.php:57
+msgid "Update genre"
+msgstr ""
+
+#: inc/post-types.php:58
+msgid "Add a genre"
+msgstr ""
+
+#: inc/post-types.php:59
+msgid "New genre name"
+msgstr ""
+
+#: inc/post-types.php:60
+msgid "Genre archives"
+msgstr ""
+
+#: inc/post-types.php:61
+msgid "No genres found"
+msgstr ""
+
+#: inc/post-types.php:62
+msgid "No genres"
+msgstr ""
+
+#: inc/post-types.php:63
+msgid "Filter by genre"
+msgstr ""
+
+#: inc/post-types.php:64
+msgid "Genre link"
+msgstr ""
+
+#: inc/post-types.php:65
+msgid "A link to a genre"
+msgstr ""
+
+#: patterns/template-query-books-loop.php
+msgctxt "Pattern title"
+msgid "Books loop"
+msgstr ""
+
+#: patterns/template-query-books-loop.php:61
+msgid "No books found in this genre."
+msgstr ""
+
+#: build/blocks/book-related/script.js:1
+#: src/blocks/book-related/script.js:101
+msgid "There are no other books"
+msgstr ""
+
+#: build/blocks/book-related/script.js:1
+#: src/blocks/book-related/script.js:112
+msgid "Could not load newest books"
+msgstr ""
+
+#: build/blocks/faq-accordion/index.js:1
+#: src/blocks/faq-accordion/edit.js:14
+msgid "Add FAQ title"
+msgstr ""
+
+#: build/blocks/faq-item/index.js:1
+#: src/blocks/faq-item/edit.js:15
+msgid "Write a question..."
+msgstr ""
+
+#: build/blocks/faq-item/index.js:1
+#: src/blocks/faq-item/edit.js:30
+msgid "Write an answer..."
+msgstr ""
+
+#: build/blocks/book-related/block.json
+#: src/blocks/book-related/block.json
+msgctxt "block title"
+msgid "Newest books"
+msgstr ""
+
+#: build/blocks/book-related/block.json
+#: src/blocks/book-related/block.json
+msgctxt "block description"
+msgid "Shows 20 newest books (excluding current book)"
+msgstr ""
+
+#: build/blocks/faq-accordion/block.json
+#: src/blocks/faq-accordion/block.json
+msgctxt "block title"
+msgid "FAQ Accordion"
+msgstr ""
+
+#: build/blocks/faq-accordion/block.json
+#: build/blocks/faq-item/block.json
+#: src/blocks/faq-accordion/block.json
+#: src/blocks/faq-item/block.json
+msgctxt "block description"
+msgid "FAQ accordion with automatic numeration"
+msgstr ""
+
+#: build/blocks/faq-item/block.json
+#: src/blocks/faq-item/block.json
+msgctxt "block title"
+msgid "FAQ Question"
+msgstr ""

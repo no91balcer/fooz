@@ -1,0 +1,1 @@
+.c-faq-item.is-selected .c-faq-item__answer{grid-template-rows:1fr;padding-bottom:1.5rem}.c-faq-item.is-selected .c-faq-item__icon--plus{opacity:0;transform:rotate(-90deg)}.c-faq-item.is-selected .c-faq-item__icon--minus{opacity:1;transform:rotate(0deg)}
