@@ -11,3 +11,6 @@ It has been moved from assets/js/scripts.js to provide a cleaner file structure.
 
 ## TASK 3
 Post Type "Book" and Taxonomy "Genre" are registered in fooz-test/inc/post-types.php
+
+## TASK 4
+Custom templates single-book.html and taxonomy-genre.html are available in fooz-test/templates directory

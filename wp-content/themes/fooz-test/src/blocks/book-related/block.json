@@ -1,0 +1,18 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 3,
+  "name": "fooz-test/book-related",
+  "title": "Newest books",
+  "category": "widgets",
+  "icon": "book",
+  "description": "Shows 20 newest books (excluding current book)",
+  "textdomain": "fooz-test",
+  "supports": {
+    "html": false
+  },
+  "editorScript": "file:./script.js",
+  "script": "file:./script.js",
+  "render": "file:./render.php",
+  "attributes": {},
+  "example": {}
+}
