@@ -1,0 +1,35 @@
+{
+  "apiVersion": 3,
+  "name": "fooz-test/faq-accordion",
+  "title": "FAQ Accordion",
+  "category": "design",
+  "icon": "editor-help",
+  "description": "FAQ accordion with automatic numeration",
+  "textdomain": "fooz-test",
+  "supports": {
+    "html": false,
+    "spacing": {
+      "margin": true,
+      "padding": true
+    },
+    "allowedBlocks": true
+  },
+  "attributes": {
+    "title": {
+      "type": "string",
+      "source": "html",
+      "selector": ".c-faq__title"
+    }
+  },
+  "example": {
+    "attributes": {
+      "question": "",
+      "answer": ""
+    }
+  },
+  "editorScript": "file:./index.js",
+  "editorStyle": "file:./index.css",
+  "allowedBlocks": [
+    "fooz-test/faq-item"
+  ]
+}

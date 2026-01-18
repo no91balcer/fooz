@@ -1,0 +1,268 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Fooz test\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-01-16 19:33+0000\n"
+"PO-Revision-Date: 2026-01-18 16:30+0000\n"
+"Last-Translator: \n"
+"Language-Team: Polski\n"
+"Language: pl_PL\n"
+"Plural-Forms: nplurals=3; plural=(n==1 ? 0 : n%10 >= 2 && n%10<=4 "
+"&&(n%100<10||n%100 >= 20)? 1 : 2);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco https://localise.biz/\n"
+"X-Loco-Version: 2.8.1; wp-6.9; php-8.2.30\n"
+"X-Domain: fooz-test"
+
+#: inc/post-types.php:65
+msgid "A link to a genre"
+msgstr "Link do gatunku"
+
+#: inc/post-types.php:37
+msgid "A link to the post."
+msgstr "Link do książki"
+
+#: inc/post-types.php:13 inc/post-types.php:14
+msgid "Add a book"
+msgstr "Dodaj książkę"
+
+#: inc/post-types.php:58
+msgid "Add a genre"
+msgstr "Dodaj gatunek"
+
+#: build/blocks/faq-accordion/index.js:1 src/blocks/faq-accordion/edit.js:14
+msgid "Add FAQ title"
+msgstr "Dodaj tytuł sekcji FAQ"
+
+#: inc/post-types.php:22
+msgid "All books"
+msgstr "Wszystkie książki"
+
+#: inc/post-types.php:52
+msgid "All genres"
+msgstr "Wszystkie gatunki"
+
+#: inc/post-types.php:54
+msgid "Assign a parent genre to create a hierarchy"
+msgstr "Przypisz gatunek nadrzędny, aby utworzyć hierarchię."
+
+#: build/blocks/faq-accordion/block.json build/blocks/faq-item/block.json
+#: src/blocks/faq-accordion/block.json src/blocks/faq-item/block.json
+msgctxt "block description"
+msgid "FAQ accordion with automatic numeration"
+msgstr "FAQ z automatyczną numeracją"
+
+#: build/blocks/book-related/block.json src/blocks/book-related/block.json
+msgctxt "block description"
+msgid "Shows 20 newest books (excluding current book)"
+msgstr "Wyświetla 20 najnowszych książek (z wyłączeniem obecnej)"
+
+#: build/blocks/faq-accordion/block.json src/blocks/faq-accordion/block.json
+msgctxt "block title"
+msgid "FAQ Accordion"
+msgstr "FAQ - Akordeon"
+
+#: build/blocks/faq-item/block.json src/blocks/faq-item/block.json
+msgctxt "block title"
+msgid "FAQ Question"
+msgstr "Pytanie"
+
+#: build/blocks/book-related/block.json src/blocks/book-related/block.json
+msgctxt "block title"
+msgid "Newest books"
+msgstr "Najnowsze książki"
+
+#: inc/post-types.php:23
+msgid "Book archives"
+msgstr "Archiwa książek"
+
+#: inc/post-types.php:24
+msgid "Book attributes"
+msgstr "Atrybuty książek"
+
+#: inc/post-types.php:36
+msgid "Book Link"
+msgstr "Link do ksiązki"
+
+#: inc/post-types.php:30
+msgid "Book published"
+msgstr "Książka opublikowana"
+
+#: inc/post-types.php:31
+msgid "Book published privately"
+msgstr "Opublikowano prywatnie"
+
+#: inc/post-types.php:32
+msgid "Book reverted to draft."
+msgstr "Książka została cofnięta do szkicu."
+
+#: inc/post-types.php:34
+msgid "Book scheduled."
+msgstr "Zaplanowano publikację książki."
+
+#: inc/post-types.php:33
+msgid "Book trashed."
+msgstr "Książka została przeniesiona do kosza."
+
+#: inc/post-types.php:35
+msgid "Book updated."
+msgstr "Książka została zaktualizowana."
+
+#: inc/post-types.php:29
+msgid "Books list"
+msgstr "Lista książek"
+
+#: inc/post-types.php:28
+msgid "Books list navigation"
+msgstr "Nawigacja listy książek"
+
+#: build/blocks/book-related/script.js:1 src/blocks/book-related/script.js:112
+msgid "Could not load newest books"
+msgstr "Nie udało się załadować najnowszych książek"
+
+#: inc/post-types.php:15
+msgid "Edit book"
+msgstr "Edytuj książkę"
+
+#: inc/post-types.php:55
+msgid "Edit genre"
+msgstr "Edytuj gatunek"
+
+#: inc/post-types.php:27
+msgid "Filter books list"
+msgstr "Filtrowanie listy książek"
+
+#: inc/post-types.php:63
+msgid "Filter by genre"
+msgstr "Filtruj po gatunku"
+
+#. Theme Name of the theme
+#: style.css
+msgid "Fooz test"
+msgstr "Fooz test"
+
+#: inc/post-types.php:11
+msgctxt "General Name"
+msgid "Books"
+msgstr "Książki"
+
+#: inc/post-types.php:49
+msgctxt "General Name"
+msgid "Genres"
+msgstr "Gatunki"
+
+#: inc/post-types.php:60
+msgid "Genre archives"
+msgstr "Archiwa gatunków"
+
+#: inc/post-types.php:64
+msgid "Genre link"
+msgstr "Link do gatunku"
+
+#: inc/post-types.php:16
+msgid "New book"
+msgstr "Nowa książka"
+
+#: inc/post-types.php:59
+msgid "New genre name"
+msgstr "Nowa nazwa gatunku"
+
+#: inc/post-types.php:20
+msgid "No books found"
+msgstr "Nie znaleziono żadnych książek."
+
+#: patterns/template-query-books-loop.php:61
+msgid "No books found in this genre."
+msgstr "Nie książek w tym gatunku."
+
+#: inc/post-types.php:21
+msgid "No books found in Trash"
+msgstr "Nie znaleziono żadnych książek w koszu."
+
+#: inc/post-types.php:62
+msgid "No genres"
+msgstr "Brak gatunków"
+
+#: inc/post-types.php:61
+msgid "No genres found"
+msgstr "Nie znaleziono żadnego gatunku"
+
+#: build/blocks/book-related/render.php:11
+#: src/blocks/book-related/render.php:11
+msgid "Other books"
+msgstr "Inne książki"
+
+#: inc/post-types.php:53
+msgid "Parent genre"
+msgstr "Gatunek nadrzędny"
+
+#: patterns/template-query-books-loop.php
+msgctxt "Pattern title"
+msgid "Books loop"
+msgstr "Pętla książek"
+
+#. Author of the theme
+#: style.css
+msgid "Piotr Balcerak"
+msgstr "Piotr Balcerak"
+
+#: inc/post-types.php:25
+msgid "Put in the book"
+msgstr "Wstaw do książki"
+
+#: inc/post-types.php:19
+msgid "Search books"
+msgstr "Szukaj książek"
+
+#: inc/post-types.php:51
+msgid "Search genres"
+msgstr "Wyszukaj gatunek"
+
+#: inc/post-types.php:12
+msgctxt "Singular Name"
+msgid "Book"
+msgstr "Książka"
+
+#: inc/post-types.php:50
+msgctxt "Singular Name"
+msgid "Genre"
+msgstr "Gatunek"
+
+#. Description of the theme
+#: style.css
+msgid "Theme for Fooz test"
+msgstr "Motyw Fooz test"
+
+#: build/blocks/book-related/script.js:1 src/blocks/book-related/script.js:101
+msgid "There are no other books"
+msgstr "Nie znaleziono innych książek"
+
+#: inc/post-types.php:57
+msgid "Update genre"
+msgstr "Aktualizuj gatunek"
+
+#: inc/post-types.php:26
+msgid "Uploaded to this book"
+msgstr "Wgrane do książki"
+
+#: inc/post-types.php:17
+msgid "View a book"
+msgstr "Zobacz książkę"
+
+#: inc/post-types.php:18
+msgid "View books"
+msgstr "Zobacz książki"
+
+#: inc/post-types.php:56
+msgid "View genre"
+msgstr "Wyświetl gatunek"
+
+#: build/blocks/faq-item/index.js:1 src/blocks/faq-item/edit.js:15
+msgid "Write a question..."
+msgstr "Wpisz pytanie..."
+
+#: build/blocks/faq-item/index.js:1 src/blocks/faq-item/edit.js:30
+msgid "Write an answer..."
+msgstr "Wpisz odpowiedź..."

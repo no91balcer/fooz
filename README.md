@@ -14,3 +14,6 @@ Post Type "Book" and Taxonomy "Genre" are registered in fooz-test/inc/post-types
 
 ## TASK 4
 Custom templates single-book.html and taxonomy-genre.html are available in fooz-test/templates directory
+
+## TASK 5
+The faq-accordion block is located in the fooz-test/blocks directory. There is also a faq-item block, which is a child block of faq-accordion.
