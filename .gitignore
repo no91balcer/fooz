@@ -5,7 +5,8 @@
 /wp-content/*
 !/wp-content/themes/
 /wp-content/themes/*
-!/wp-content/themes/.gitkeep
+!/wp-content/themes/fooz-test/
 
 .DS_Store
-
+/wp-content/themes/fooz-test/node_modules/
+!/README.md
