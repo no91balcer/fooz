@@ -1,0 +1,11 @@
+/*
+!/.gitignore
+!/wp-content/
+!/wp-content/themes/
+/wp-content/*
+!/wp-content/themes/
+/wp-content/themes/*
+!/wp-content/themes/.gitkeep
+
+.DS_Store
+
