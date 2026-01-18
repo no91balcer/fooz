@@ -7,6 +7,7 @@ module.exports = {
     ...defaultConfig,
     entry: {
         ...defaultConfig.entry(),
+        'js/scripts': './src/js/scripts.js',
         'css/main': './src/scss/main.scss',
     },
     output: {
